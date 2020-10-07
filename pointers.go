@@ -8,6 +8,6 @@ func fun(y int) {
 
 func main() {
 	y := 10
-	func(y)
+	fun(y)
 	fmt.Println(y)
 }
