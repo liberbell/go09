@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 // func add(x int, y int) int { return x + y}
 
 func subt(a, b int) int {
@@ -7,5 +9,5 @@ func subt(a, b int) int {
 }
 
 func main() {
-	fmt.print
+	fmt.Println(subt(8, 4))
 }
