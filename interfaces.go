@@ -4,5 +4,5 @@ import "fmt"
 
 func main() {
 	h := "hi"
-	fmt.Println(h)
+	fmt.Printf("h is type %T\n", h)
 }
