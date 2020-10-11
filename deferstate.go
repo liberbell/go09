@@ -6,4 +6,6 @@ import (
 
 func main() {
 	defer fmt.Println("World")
+
+	fmt.Println("Hello")
 }
